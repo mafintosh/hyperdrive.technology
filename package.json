@@ -1,0 +1,24 @@
+{
+  "name": "hyperdrive.technology",
+  "version": "1.0.0",
+  "description": "hyperdrive website",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mafintosh/hyperdrive.technology.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/hyperdrive.technology/issues"
+  },
+  "homepage": "https://github.com/mafintosh/hyperdrive.technology#readme",
+  "dependencies": {
+    "localcast": "^2.0.0"
+  },
+  "devDependencies": {
+    "browserify": "^14.1.0"
+  },
+  "scripts": {
+    "build": "browserify app.js > bundle.js"
+  }
+}
