@@ -13,7 +13,8 @@
   },
   "homepage": "https://github.com/mafintosh/hyperdrive.technology#readme",
   "dependencies": {
-    "localcast": "^2.0.0"
+    "localcast": "^2.0.0",
+    "pixel-grid": "^1.0.2"
   },
   "devDependencies": {
     "browserify": "^14.1.0"
