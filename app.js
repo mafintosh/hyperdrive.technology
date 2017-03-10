@@ -110,6 +110,11 @@ setInterval(function () {
 }, 250)
 
 function updateStats () {
+  if (!list) return yo.update(statsEl, `<div class="stats">
+      <code class="title"><a href="https://datproject.org"><b>Hyperdrive</b> Statistics</a></code>
+      <code style="padding-left: 20px">Run dat-next-next with --stats to begin</code>
+    </div>
+  `)
   yo.update(statsEl, `<div class="stats">
     <code class="title"><a href="https://datproject.org"><b>Hyperdrive</b> Statistics</a></code>
     <ul>
