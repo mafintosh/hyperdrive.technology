@@ -14,7 +14,8 @@
   "homepage": "https://github.com/mafintosh/hyperdrive.technology#readme",
   "dependencies": {
     "localcast": "^2.0.0",
-    "pixel-grid": "^1.0.2"
+    "pixel-grid": "^1.0.2",
+    "yo-yo": "^1.4.0"
   },
   "devDependencies": {
     "browserify": "^14.1.0"
